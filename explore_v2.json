@@ -1,1 +1,91 @@
-{}
+{
+  "masonryCards": [
+    {
+      "id": "3",
+      "type": "big",
+      "canClose": false,
+
+      "contentMode": "default",
+      "content": {
+        "title": "CBT3 正式发布",
+        "tag": "更新日志",
+        "introduction": "点击查看本次重大更新说明"
+      },
+
+      "background": {
+        "img": "update/update.png"
+      },
+
+      "actions": [
+        {
+          "id": "update",
+          "content": "阅读",
+          "url": "update/cbtupdate.md"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "normal",
+      "canClose": false,
+
+      "contentMode": "default",
+      "content": {
+        "title": "先锋测试",
+        "tag": "公告",
+        "introduction": "先锋测试正式开始"
+      },
+
+      "background": {
+        "img": "notice/cover.png"
+      },
+
+      "actions": [
+        {
+          "id": "notice",
+          "content": "阅读",
+          "url": "notice/cbt.md"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "normal",
+      "canClose": false,
+
+      "contentMode": "default",
+      "content": {
+        "title": "困惑的成长",
+        "tag": "作者专访",
+        "introduction": "鱼子酱的人生故事"
+      },
+
+      "background": {
+        "img": "weekly-1/cover.jpg"
+      },
+
+      "actions": [
+        {
+          "id": "91",
+          "content": "阅读",
+          "url": "weekly-1/index.md"
+        }
+      ]
+    }
+  ],
+  
+  "featuredResourceIds": ["979808741600", "moe.yzf.comic"],
+  "featuredAuthors": [
+    {
+      "id": "9ad058d3-2ff3-4aab-9e59-d82ecb8851c4",
+      "name": "小鱼yuzifu",
+      "description": "You like me, I like you.",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53327400?v=4",
+      "resourceIds": [
+        "com.yzf.ballsRace",
+        "com.yzf.daymatter",
+        "com.yzf.fireworkMaster"
+      ]
+    }
+  ]
+}
